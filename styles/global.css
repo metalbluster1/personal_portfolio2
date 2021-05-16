@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(230, 66, 66);
+}
+
+.link:hover {
+    color: rgba(230, 66, 66);
+}
+
+ul {
+    list-style: none;
+}
+
+.btn a {
+    color: #fff;
+}
+
+.btn a:hover {
+    color: rgba(230, 66, 66);
+}
+

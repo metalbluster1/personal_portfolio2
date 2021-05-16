@@ -1,0 +1,310 @@
+@media screen and (max-width: 430px) {
+    #main-nav {
+        background-color: rgb(38, 38, 133, 0.7);
+        position: fixed;
+        width: 100%;
+    }
+    .container {
+        max-width: 380px;
+        margin: auto;
+    }
+    .nav {
+        padding: 15px 10px;
+    }
+    .nav ul {
+        display: flex;
+        justify-content: center;
+    }
+    .nav ul li {
+        padding: 0 10px;
+    }
+    .nav ul li a {
+        color: #fff;
+    }
+    #main-header {
+        background: url(../images/background_image_1_1080p.png) no-repeat center/cover;
+        padding: 260px 0;
+    }
+    .name {
+        padding: 10px 0;
+        color: #fff;
+        font-weight: 400;
+    }
+    .header {
+        text-align: center;
+    }
+    .title {
+        transform: translateY(-160px);
+    }
+    #projects {
+        background-color:#333;
+    }
+    .project-title {
+        text-align: center;
+        padding: 20px 0;
+        padding-top: 40px;
+        color: #fff;
+        font-weight: 400;
+    }
+    .project_info {
+        padding: 50px 0;
+    }
+    .project {
+        color: #fff;
+        background-color: blue;
+        max-width: 375px;
+        margin: auto;
+        padding: 250px 0;
+        text-align: center;
+        margin-bottom: 40px;
+        border-radius: 5px;
+    }
+    .project_1 {
+        background: url(../images/Untitled.png) no-repeat center center/cover;
+    }
+    .project_2 {
+        background: url(../images/project_2.png) no-repeat center center/cover;
+    }
+    .btn {
+        transform: translateY(230px);
+        padding: 5px 15px;
+        background-color: #333;
+        color: #fff;
+        border-radius: 5px;
+    }
+    .footer {
+        padding: 15px 0;
+    }
+    .footer {
+        padding: 15px 0 20px 0;
+        background-color: rgb(38, 38, 133);
+    }
+    .footer ul {
+        display: flex;
+        justify-content: center;
+    }
+    .footer ul li {
+        padding: 0 20px;
+    }
+    .footer-title {
+        color: #fff;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .footer ul li a i {
+        color: #fff;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 770px) {
+    #main-nav {
+        background-color: rgb(38, 38, 133, 0.7);
+        position: fixed;
+        width: 100%;
+    }
+    .container {
+        max-width: 750px;
+        margin: auto;
+    }
+    .nav {
+        padding: 20px 10px;
+
+    }
+    .nav ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .nav ul li {
+        padding: 20px 35px;
+        
+    }
+    .nav ul li a {
+        padding: 0 20px;
+        font-size: 1.2rem;
+    }
+    .nav ul li a {
+        
+        color: #fff;
+    
+        
+    }
+    #main-header {
+        background: url(../images/background_image_1_1080p.png) no-repeat center/cover;
+        padding: 460px 0;
+    }
+    .name {
+        padding: 10px 0;
+        font-size: 1.5rem;
+        color: #fff;
+        font-weight: 400;
+    }
+    .header {
+        text-align: center;
+    }
+    .title {
+        transform: translateY(-220px);
+    }
+    #projects {
+        background-color:#333;
+    }
+    .project-title {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+    .project_info {
+        padding: 50px 0;
+    }
+    .project {
+        color: #fff;
+        background-color: blue;
+        max-width: 600px;
+        margin: auto;
+        padding: 250px 0;
+        text-align: center;
+        margin-bottom: 40px;
+        border-radius: 5px;
+    }
+    .project_1 {
+        background: url(../images/Untitled.png) no-repeat center center/cover;
+    }
+    .project_2 {
+        background: url(../images/project_2.png) no-repeat center center/cover;
+    }
+    .btn {
+        transform: translateY(230px);
+        padding: 5px 15px;
+        background-color: #333;
+        color: #fff;
+        border-radius: 5px;
+    }
+    .footer {
+        padding: 15px 0 20px 0;
+        background-color: rgb(38, 38, 133);
+    }
+    .footer-title {
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 2.5rem;
+        color: #fff;
+        font-weight: 300;
+    }
+    .footer ul {
+        display: flex;
+        justify-content: center;
+    }
+    .footer ul li {
+        padding: 0 20px;
+    }
+    .footer ul li a i {
+        color: #fff;
+    }
+}
+
+@media screen and (min-width: 771px) {
+    #main-nav {
+        background-color: rgb(38, 38, 133, 0.7);
+        position: fixed;
+        width: 100%;
+    }
+    .container {
+        max-width: 1040px;
+        margin: auto;
+    }
+    .nav {
+        padding: 5px 0;
+    }
+    .nav ul {
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px 0;
+        margin: 0 -100px;
+    }
+    .nav ul li {
+        padding-left: 80px;
+    }
+    
+    .nav ul li a {
+        color: #fff;
+        font-size: 1.3rem;
+        
+    }
+    #main-header {
+        background: url(../images/background_image_1_1080p.png) no-repeat center/cover;
+        padding: 305px 0;
+    }
+    .name {
+        color: #fff;
+        padding: 10px 0;
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+    .header {
+        text-align: center;
+    }
+    .title {
+        transform: translateY(-200px);
+    }
+    #projects {
+        background-color: rgba(0, 0, 0, 0.925)
+    }
+    .project-title {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 2.5rem;
+        font-weight: 500;
+        color: white;
+        font-weight: 400;
+    }
+    .project_info {
+        padding: 50px 0;
+    }
+    .project {
+        color: #fff;
+        
+        max-width: 845px;
+        margin: auto;
+        padding: 250px 0;
+        text-align: center;
+        margin-bottom: 40px;
+        border-radius: 5px;
+    }
+    .project_1 {
+        background: url(../images/Untitled.png) no-repeat center center/cover;
+    }
+    .project_2 {
+        background: url(../images/project_2.png) no-repeat center center/cover;
+    }
+    .btn {
+        transform: translateY(230px);
+        padding: 5px 15px;
+        background-color: #333;
+        color: #fff;
+        border-radius: 5px;
+    }
+    .footer {
+        padding: 15px 0 20px 0;
+        background-color: rgb(38, 38, 133);
+    }
+    .footer-title {
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 1.5rem;
+        color: #fff;
+        font-weight: 400;
+    }
+    .footer ul {
+        display: flex;
+        justify-content: center;
+    }
+    .footer ul li {
+        padding: 0 20px;
+    }
+    img {
+        width: 800px;
+    }
+    i {
+        color: white;
+    }
+}
